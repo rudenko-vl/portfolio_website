@@ -1,157 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <title>3D Portfolio</title>
-    <link rel="stylesheet" href="./css/global.css">
-    <link rel="stylesheet" href="./css/style.css">
-</head>
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
-<body>
+  <body>
     <div class="wrapper">
-        <div class="cover cover-left">
-        </div>
-        <div class="cover cover-right turn"></div>
-        <div class="book">
-            <!-- profile page -->
-            <div class="book-page page-left">
-                <div class="profile-page">
-                    <img class="photo-profile" src="./images/leo_messi.png" alt="photo">
-                    <h1>Leo Messi</h1>
-                    <h3>Web Developer</h3>
-                    <div class="social-media">
-                        <a href="#">
+      <div class="cover cover-left"></div>
+      <div class="cover cover-right turn"></div>
+      <div class="book">
+        <!-- profile page -->
+        <div class="book-page page-left">
+          <div class="profile-page">
+            <img
+              class="photo-profile"
+              src="./images/leo_messi.png"
+              alt="photo"
+            />
+            <h1>Leo Messi</h1>
+            <h3>Web Developer</h3>
+            <div class="social-media">
+              <!-- <a href="#">
                             <img class="icons" src="./images/facebook-176-svgrepo-com.svg" alt="fb">
-                        </a>
-                        <a href="#">
-                            <img class="icons" src="./images/telegram-svgrepo-com.svg" alt="tg">
-                        </a>
-                        <a href="#"><img class="icons" src="./images/twitter-3-svgrepo-com.svg" alt="tw"></a>
-                        <a href="#"><img class="icons" src="./images/linkedin-161-svgrepo-com.svg" alt="in"></a>
-                    </div>
-                    <p>Hi, I'm Leo Messi, a web developer. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        Impedit, eaque illum dignissimos non ipsa quia doloribus nesciunt iste, quae iure aspernatur,
-                        magnam sint quidem? Numquam accusamus exercitationem natus consequuntur. Dolorem!</p>
-                    <div class="btn-box">
-                        <a href="#" class="btn">Download CV</a>
-                        <a href="#" class="btn contact-me">Contact Me</a>
-                    </div>
-                </div>
+                        </a> -->
+              <a href="#">
+                <i class="bx bxl-facebook"></i>
+              </a>
+              <a href="#">
+                <!-- <img class="icons" src="./images/telegram-svgrepo-com.svg" alt="tg"> -->
+                <i class="bx bxl-telegram"></i>
+              </a>
+              <a href="#">
+                <!-- <img class="icons" src="./images/twitter-3-svgrepo-com.svg" alt="tw"> -->
+                <i class="bx bxl-twitter"></i>
+              </a>
+              <a href="#">
+                <!-- <img class="icons" src="./images/linkedin-161-svgrepo-com.svg" alt="in"> -->
+                <i class="bx bxl-linkedin"></i>
+              </a>
             </div>
-            <!-- page 1 and 2 -->
-            <div class="book-page page-right turn" id="turn-1">
-                <!-- page 1 work experience -->
-                <div class="page-front">
-                    <h1 class="title">Work Experience</h1>
-                    <div class="workeduc-box">
-                        <div class="workeduc-content">
-                            <span class="year">
-                                <img class="workeduc-content_icons" src="./images/calendar-days-svgrepo-com.svg" />2020
-                                - 2021</span>
-                            <h3>Web Developer - Company</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem similique
-                                reprehenderit odit neque eius omnis, molestiae ipsum, saepe architecto, obcaecati
-                                voluptatibus dolores? Aspernatur corrupti sed ipsam dolor dolorum distinctio ut?</p>
-                        </div>
-                        <div class="workeduc-content">
-                            <span class="year">
-                                <img class="workeduc-content_icons" src="./images/calendar-days-svgrepo-com.svg" />2021
-                                - 2022</span>
-                            <h3>Web Developer - Company</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem similique
-                                reprehenderit odit neque eius omnis, molestiae ipsum, saepe architecto, obcaecati
-                                voluptatibus dolores? Aspernatur corrupti sed ipsam dolor dolorum distinctio ut?</p>
-                        </div>
-                    </div>
-                    <span class="number-page">1</span>
-
-                    <!-- next button -->
-                    <span class="nextprev-btn" data-page="turn-1">></span>
-                </div>
-
-                <!-- page 2 education -->
-                <div class="page-back">
-                    <h1 class="title">Education</h1>
-                    <div class="workeduc-box">
-                        <div class="workeduc-content">
-                            <span class="year">
-                                <img class="workeduc-content_icons" src="./images/calendar-days-svgrepo-com.svg" />2017
-                                - 2018</span>
-                            <h3>Garvard University</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem similique
-                                reprehenderit odit neque eius omnis, molestiae ipsum, saepe architecto, obcaecati
-                                voluptatibus dolores? Aspernatur corrupti sed ipsam dolor dolorum distinctio ut?</p>
-                        </div>
-                        <div class="workeduc-content">
-                            <span class="year">
-                                <img class="workeduc-content_icons" src="./images/calendar-days-svgrepo-com.svg" />2018
-                                - 2020</span>
-                            <h3>Oxford University</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem similique
-                                reprehenderit odit neque eius omnis, molestiae ipsum, saepe architecto, obcaecati
-                                voluptatibus dolores? Aspernatur corrupti sed ipsam dolor dolorum distinctio ut?</p>
-                        </div>
-                    </div>
-
-                    <span class="number-page">2</span>
-
-                    <!-- prev button -->
-                    <span class="nextprev-btn back" data-page="turn-1">
-                        < </span>
-                </div>
-
+            <p>
+              Hi, I'm Leo Messi, a web developer. Lorem ipsum, dolor sit amet
+              consectetur adipisicing elit. Impedit, eaque illum dignissimos non
+              ipsa quia doloribus nesciunt iste, quae iure aspernatur, magnam
+              sint quidem? Numquam accusamus exercitationem natus consequuntur.
+              Dolorem!
+            </p>
+            <div class="btn-box">
+              <a href="#" class="btn">Download CV</a>
+              <a href="#" class="btn contact-me">Contact Me</a>
             </div>
-            <!-- page 3 and 4 -->
-            <div class="book-page page-right turn" id="turn-2">
-                <!-- page 3 my services -->
-                <div class="page-front">
-                    <h1 class="title">My Services</h1>
-                    <div class="services-box">
-                        <div class="services-content">
-                            <img class="services-icons" src="./images/code-svgrepo-com.svg" alt="code">
-                            <h3>Web Development</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                            <a href="#" class="btn">Read More</a>
-                        </div>
-
-                        <div class="services-content">
-                            <img class="services-icons" src="./images/paint-svgrepo-com.svg" alt="code">
-                            <h3>Creative Design</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                            <a href="#" class="btn">Read More</a>
-                        </div>
-
-                        <div class="services-content">
-                            <img class="services-icons" src="./images/chart-simple-svgrepo-com.svg" alt="code">
-                            <h3>Digital Marketing</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                            <a href="#" class="btn">Read More</a>
-                        </div>
-
-                        <div class="services-content">
-                            <img class="services-icons" src="./images/search-svgrepo-com.svg" alt="code">
-                            <h3>SEO</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                            <a href="#" class="btn">Read More</a>
-                        </div>
-
-                    </div>
-                    <span class="number-page">3</span>
-
-                    <!-- prev button -->
-                    <span class="nextprev-btn" data-page="turn-2">
-                        > </span>
-                </div>
-                <!-- page 4 my skills -->
-                <div class="page-back">
-                    <h1 class="title">My Skills</h1>
-                </div>
-            </div>
+          </div>
         </div>
+        <!-- page 1 and 2 -->
+        <div class="book-page page-right turn" id="turn-1">
+          <!-- page 1 work experience -->
+          <div class="page-front">
+            <h1 class="title">Work Experience</h1>
+            <div class="workeduc-box">
+              <div class="workeduc-content">
+                <span class="year">
+                  <i class="bx bxs-calendar"></i>
+                  <!-- <img
+                    class="workeduc-content_icons"
+                    src="./images/calendar-days-svgrepo-com.svg"
+                  /> -->
+                  2020 - 2021</span
+                >
+                <h3>Web Developer - Company</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatem similique reprehenderit odit neque eius omnis,
+                  molestiae ipsum, saepe architecto, obcaecati voluptatibus
+                  dolores? Aspernatur corrupti sed ipsam dolor dolorum
+                  distinctio ut?
+                </p>
+              </div>
+              <div class="workeduc-content">
+                <span class="year">
+                  <i class="bx bxs-calendar"></i>
+                  <!-- <img
+                    class="workeduc-content_icons"
+                    src="./images/calendar-days-svgrepo-com.svg"
+                  /> -->
+                  2021 - 2022</span
+                >
+                <h3>Web Developer - Company</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatem similique reprehenderit odit neque eius omnis,
+                  molestiae ipsum, saepe architecto, obcaecati voluptatibus
+                  dolores? Aspernatur corrupti sed ipsam dolor dolorum
+                  distinctio ut?
+                </p>
+              </div>
+            </div>
+            <span class="number-page">1</span>
+
+            <!-- next button -->
+            <span class="nextprev-btn" data-page="turn-1"
+              ><i class="bx bxs-chevron-right"></i
+            ></span>
+          </div>
+
+          <!-- page 2 education -->
+          <div class="page-back">
+            <h1 class="title">Education</h1>
+            <div class="workeduc-box">
+              <div class="workeduc-content">
+                <span class="year">
+                  <i class="bx bxs-calendar"></i>
+                  <!-- <img
+                    class="workeduc-content_icons"
+                    src="./images/calendar-days-svgrepo-com.svg"
+                  /> -->
+                  2017 - 2018</span
+                >
+                <h3>Garvard University</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatem similique reprehenderit odit neque eius omnis,
+                  molestiae ipsum, saepe architecto, obcaecati voluptatibus
+                  dolores? Aspernatur corrupti sed ipsam dolor dolorum
+                  distinctio ut?
+                </p>
+              </div>
+              <div class="workeduc-content">
+                <span class="year">
+                  <i class="bx bxs-calendar"></i>
+                  <!-- <img
+                    class="workeduc-content_icons"
+                    src="./images/calendar-days-svgrepo-com.svg"/> -->
+                  2018 - 2020</span
+                >
+
+                <h3>Oxford University</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatem similique reprehenderit odit neque eius omnis,
+                  molestiae ipsum, saepe architecto, obcaecati voluptatibus
+                  dolores? Aspernatur corrupti sed ipsam dolor dolorum
+                  distinctio ut?
+                </p>
+              </div>
+            </div>
+
+            <span class="number-page">2</span>
+
+            <!-- prev button -->
+            <span class="nextprev-btn back" data-page="turn-1"
+              ><i class="bx bx-chevron-left"></i
+            ></span>
+          </div>
+        </div>
+        <!-- page 3 and 4 -->
+        <div class="book-page page-right turn" id="turn-2">
+          <!-- page 3 my services -->
+          <div class="page-front">
+            <h1 class="title">My Services</h1>
+            <div class="services-box">
+              <div class="services-content">
+                <!-- <img class="services-icons" src="./images/code-svgrepo-com.svg" alt="code"> -->
+                <span class="services-icons"><i class="bx bx-code-alt"></i></span>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#" class="btn">Read More</a>
+              </div>
+
+              <div class="services-content">
+                <!-- <img class="services-icons" src="./images/paint-svgrepo-com.svg" alt="code"> -->
+                <i class="bx bxs-paint"></i>
+                <h3>Creative Design</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#" class="btn">Read More</a>
+              </div>
+
+              <div class="services-content">
+                <!-- <img class="services-icons" src="./images/chart-simple-svgrepo-com.svg" alt="code"> -->
+                <i class="bx bxs-bar-chart-alt-2"></i>
+                <h3>Digital Marketing</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#" class="btn">Read More</a>
+              </div>
+
+              <div class="services-content">
+                <!-- <img class="services-icons" src="./images/search-svgrepo-com.svg" alt="code"> -->
+                <i class="bx bx-search-alt-2"></i>
+                <h3>SEO</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#" class="btn">Read More</a>
+              </div>
+            </div>
+            <span class="number-page">3</span>
+
+            <!-- prev button -->
+            <span class="nextprev-btn" data-page="turn-2"
+              ><i class="bx bxs-chevron-right"></i
+            ></span>
+          </div>
+          <!-- page 4 my skills -->
+          <div class="page-back">
+            <h1 class="title">My Skills</h1>
+          </div>
+        </div>
+      </div>
     </div>
     <script src="/js/script.js" type="module"></script>
-</body>
-
+  </body>
 </html>
