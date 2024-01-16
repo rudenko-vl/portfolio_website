@@ -22,17 +22,16 @@ body {
 
 .wrapper {
   position: relative;
-  width: 66rem;
-  height: 45rem;
-  /* width: 71rem;
-    height: 55rem; */
+  /* width: 66rem;
+  height: 45rem; */
+  width: 60vw;
+  height: 80vh;
   padding: 2rem;
   perspective: 250rem;
   animation: show-animate 2s forwards;
 }
 
 @keyframes show-animate {
-
   0%,
   30% {
     opacity: 0;
@@ -64,7 +63,7 @@ body {
 
 .cover.cover-right {
   z-index: 100;
-  transition: transform 1s cubic-bezier(.645, .045, .355, 1);
+  transition: transform 1s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 .cover.cover-right.turn {
@@ -95,7 +94,7 @@ body {
 }
 
 .book-page.page-left {
-  box-shadow: -.6rem .6rem .6rem rgba(0, 0, 0, .1);
+  box-shadow: -0.6rem 0.6rem 0.6rem rgba(0, 0, 0, 0.1);
 }
 
 .profile-page {
@@ -190,7 +189,7 @@ body {
   right: 0;
   transform-style: preserve-3d;
   transform-origin: left;
-  transition: transform 1s cubic-bezier(.645, .045, .355, 1);
+  transition: transform 1s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 .book-page.page-right.turn {
@@ -314,12 +313,6 @@ body {
   margin: 0.2rem 0 0.8rem;
 }
 
-/* .services-icons {
-  width: 40px;
-  height: 40px;
-  margin: 5px auto;
-} */
-
 .services-content .btn {
   width: 8rem;
   height: 2.5rem;
@@ -343,13 +336,13 @@ body {
 .skills-content h3 {
   font-size: 1.3rem;
   line-height: 1;
-  margin-bottom: .6rem;
+  margin-bottom: 0.6rem;
 }
 
 .skills-content .content {
   display: flex;
   flex-wrap: wrap;
-  gap: .8rem;
+  gap: 0.8rem;
 }
 
 .skills-content .content span {
@@ -360,9 +353,9 @@ body {
   width: 6rem;
   height: 5rem;
   border: var(--border);
-  border-radius: .3rem;
+  border-radius: 0.3rem;
   font-weight: 600;
-  transition: .3s ease;
+  transition: 0.3s ease;
 }
 
 .skills-content .content span:hover {
@@ -372,7 +365,6 @@ body {
 .skills-content .content span i {
   font-size: 3rem;
   color: var(--main-color);
-
 }
 
 .portfolio-box .img-box {
@@ -380,14 +372,14 @@ body {
   width: 100%;
   height: 15rem;
   border: var(--border);
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   overflow: hidden;
 }
 
 .portfolio-box .img-box img {
   width: 100%;
   object-fit: cover;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
 
 .portfolio-box .img-box img:hover {
@@ -416,7 +408,7 @@ body {
 }
 
 .portfolio-box .info-box .info-title a i {
-  margin-left: .3rem;
+  margin-left: 0.3rem;
 }
 
 .portfolio-box .info-box p:nth-of-type(1) {
@@ -440,8 +432,8 @@ body {
   width: 100%;
   background: transparent;
   border: var(--border);
-  border-radius: .3rem;
-  padding: .8rem;
+  border-radius: 0.3rem;
+  padding: 0.8rem;
   font-size: 1rem;
   color: var(--text-color);
   margin-bottom: 1.5rem;
@@ -468,13 +460,13 @@ body {
   height: 2rem;
   background: transparent;
   border: var(--border);
-  border-radius: .3rem;
+  border-radius: 0.3rem;
   font-size: 1.1rem;
   color: var(--main-color);
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .back-profile:hover {
@@ -486,11 +478,11 @@ body {
   position: absolute;
   top: 0;
   left: 50%;
-  transform: translateX(-50%) scale(.5);
+  transform: translateX(-50%) scale(0.5);
   font-size: 1rem;
   color: var(--main-color);
   opacity: 0;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .back-profile:hover p {
